@@ -18,7 +18,7 @@ GitHub 版本控制、开源协作和知识库同步。
 ## 相关笔记
 ```dataview
 LIST
-FROM "04-Research"
+FROM "01-Research"
 WHERE contains(tags, "topic/github")
 SORT file.cday DESC
 ```

@@ -17,7 +17,7 @@ AI 工作流、自动化流程和效率系统。
 ## 相关笔记
 ```dataview
 LIST
-FROM "04-Research" OR "01-Inbox"
+FROM "01-Research" OR "00-Inbox"
 WHERE contains(tags, "topic/workflow")
 SORT file.cday DESC
 ```

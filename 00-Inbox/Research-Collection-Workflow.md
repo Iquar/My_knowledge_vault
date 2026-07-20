@@ -13,7 +13,7 @@ flowchart LR
     D[手动输入] --> B
     B --> E[Research Cleaner]
     E --> F[Cleaned]
-    F --> G[04-Research 分类归档]
+    F --> G[01-Research 分类归档]
     G --> H[添加标签 + Topic Hub 链接]
 ```
 

@@ -17,7 +17,7 @@ created: 2026-07-06
 ## 相关笔记
 ```dataview
 LIST
-FROM "04-Research"
+FROM "01-Research"
 WHERE contains(tags, "topic/{{topic_slug}}")
 SORT file.cday DESC
 ```

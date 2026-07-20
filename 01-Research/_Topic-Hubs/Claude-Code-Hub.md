@@ -15,7 +15,7 @@ Anthropic 出品的 AI 编码助手。与 Codex 互补使用。
 ## 相关笔记
 ```dataview
 LIST
-FROM "04-Research"
+FROM "01-Research"
 WHERE contains(tags, "topic/claude-code")
 SORT file.cday DESC
 ```

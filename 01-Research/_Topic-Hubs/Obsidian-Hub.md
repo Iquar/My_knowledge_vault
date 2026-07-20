@@ -17,7 +17,7 @@ Obsidian 知识库管理和插件生态。当前知识库的核心平台。
 ## 相关笔记
 ```dataview
 LIST
-FROM "04-Research"
+FROM "01-Research"
 WHERE contains(tags, "topic/obsidian")
 SORT file.cday DESC
 ```
