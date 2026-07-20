@@ -88,7 +88,7 @@ foreach ($f in $allFiles) {
 }
 
 # Filter out known non-linked files (templates, system files)
-$systemPrefixes = @('90-Templates', '89-Prompts', '00-Inbox', '97-AI-Memory', '98-AI-Context')
+$systemPrefixes = @('90-Templates', '89-Prompts', '01-Inbox', '97-AI-Memory', '98-AI-Context')
 $orphans = $orphans | Where-Object {
     $prefix = $_.Split('\')[0]
     $prefix -notin $systemPrefixes

@@ -12,9 +12,9 @@ created: 2026-07-06
 - 从外部工具导入的研究材料
 
 ## 导入规则
-1. 所有原始材料首先进入 `00-Inbox/Downloaded`
-2. 附件（图片、PDF）进入 `00-Inbox/Attachments`
-3. 经过 Research Cleaner 处理后进入 `00-Inbox/Cleaned`
+1. 所有原始材料首先进入 `01-Inbox/Downloaded`
+2. 附件（图片、PDF）进入 `01-Inbox/Attachments`
+3. 经过 Research Cleaner 处理后进入 `01-Inbox/Cleaned`
 4. 最终分配至 `04-Research` 对应分类
 
 ## 文件命名规范

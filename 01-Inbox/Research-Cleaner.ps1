@@ -2,13 +2,13 @@
 .SYNOPSIS
     Research Cleaner - Auto-clean and classify downloaded research Markdown files.
 .DESCRIPTION
-    Scans 00-Inbox/Downloaded, cleans formatting, extracts metadata,
-    and moves files to 00-Inbox/Cleaned with improved naming and structure.
+    Scans 01-Inbox/Downloaded, cleans formatting, extracts metadata,
+    and moves files to 01-Inbox/Cleaned with improved naming and structure.
 #>
 
 param(
-    [string]$SourceDir = "F:\Codex_Ai_Knowledges_Vault\00-Inbox\Downloaded",
-    [string]$TargetDir = "F:\Codex_Ai_Knowledges_Vault\00-Inbox\Cleaned"
+    [string]$SourceDir = "F:\Codex_Ai_Knowledges_Vault\01-Inbox\Downloaded",
+    [string]$TargetDir = "F:\Codex_Ai_Knowledges_Vault\01-Inbox\Cleaned"
 )
 
 $files = Get-ChildItem -Path $SourceDir -Filter "*.md"

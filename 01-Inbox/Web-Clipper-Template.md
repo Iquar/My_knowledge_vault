@@ -34,10 +34,10 @@ tags: [research, source/web-clip]
 ```
 
 ## 保存路径
-`00-Inbox/Downloaded/{{date|date:'YYYY-MM-DD'}}_{{title}}.md`
+`01-Inbox/Downloaded/{{date|date:'YYYY-MM-DD'}}_{{title}}.md`
 
 ## 安装步骤
 1. 安装 Obsidian Web Clipper 浏览器扩展
 2. 在扩展设置中选择此 Vault
 3. 将上述模板粘贴到 Web Clipper 的模板设置中
-4. 设置保存路径为 `00-Inbox/Downloaded`
+4. 设置保存路径为 `01-Inbox/Downloaded`
